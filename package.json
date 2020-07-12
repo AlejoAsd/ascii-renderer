@@ -1,0 +1,31 @@
+{
+  "name": "ascii-renderer",
+  "version": "1.0.0",
+  "description": "Render things in ASCII.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "eslint": "^6.3.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^26.1.0",
+    "jest-mock": "^26.1.0",
+    "regenerator-runtime": "^0.13.5",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@mapbox/fusspot": "^0.7.2"
+  }
+}
